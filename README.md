@@ -24,7 +24,6 @@ To get started with the application, follow these steps:
 
 ```
 git clone https://github.com/vlad-jsdev/list-advisors.git
-
 ```
 
 
@@ -33,21 +32,18 @@ git clone https://github.com/vlad-jsdev/list-advisors.git
 ```
 cd list-advisors 
 npm run node-install 
-
 ```
 
 1.  Start the application:
 
 ```
 npm run start 
-
 ```
 
 1.  Open the application in your browser:
 
 ```
 http://localhost:3000 
-
 ```
 
 ## Project Structure
