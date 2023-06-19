@@ -22,33 +22,33 @@ To get started with the application, follow these steps:
 
 1.  Clone the repository:
 
-bash
+```
+git clone https://github.com/vlad-jsdev/list-advisors.git
 
-Copy code
-git clone https://github.com/vlad-jsdev/list-advisors.git 
+```
+
 
 1.  Install the dependencies:
 
-bash
-
-Copy code
+```
 cd list-advisors 
 npm run node-install 
 
+```
+
 1.  Start the application:
 
-bash
-
-Copy code
+```
 npm run start 
 
+```
 
 1.  Open the application in your browser:
 
-bash
-
-Copy code
+```
 http://localhost:3000 
+
+```
 
 ## Project Structure
 
