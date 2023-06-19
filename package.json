@@ -1,0 +1,24 @@
+{
+  "name": "adviqo-app",
+  "version": "1.0.0",
+  "description": "sort and filter your advisors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "front": "npm start --prefix frontend/",
+    "back": "node api/server.ts",
+    "start": "concurrently  \"cd api/ && npm run start\" \"cd frontend/ && npm run start\"",
+    "node-install": "npm i && cd api/ && npm i && cd ../frontend && npm i"
+  },
+  "keywords": [
+    "advisors",
+    "list",
+    "sort",
+    "filter"
+  ],
+  "author": "Vladyslav Manoilo <vladosxxx@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
